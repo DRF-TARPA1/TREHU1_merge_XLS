@@ -26,7 +26,7 @@ PATH_OUT <- "./output"
 fNameIn1 <- file.path(PATH_XL, "FDnbPint.XLS")
 fNameIn2 <- file.path(PATH_XL, "2019_Points_intercepts.xlsx")
 if (!dir.exists(PATH_OUT)) dir.create(PATH_OUT)
-fNameOut <- file.path(PATH_OUT, "2019_Points_intercepts_merged.xlsx")
+fNameOut <- file.path(PATH_OUT, "2019_Points_intercepts_merged.csv")
   
 
 
